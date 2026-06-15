@@ -8,6 +8,7 @@ Heterogeneous-ensemble pipeline for ISLES 2022 ischemic stroke lesion segmentati
 - Entry guide (EN): [isles2022_2d3d_blend/README_en.md](isles2022_2d3d_blend/README_en.md)
 - Entry guide (JA): [isles2022_2d3d_blend/README.md](isles2022_2d3d_blend/README.md)
 - **Experiment journey (how we arrived at 0.7527)**: [EN](docs/experiment_journey.md) | [JA](docs/experiment_journey_ja.md)
+- Release notes: [EN](docs/releases/v0.0.0.1.md) | [JA](docs/releases/v0.0.0.1_ja.md)
 - Audit map: [AUDIT_MAP.md](AUDIT_MAP.md)
 - Roadmap: [ROADMAP.md](ROADMAP.md)
 - Citation: [CITATION.cff](CITATION.cff)

@@ -1,10 +1,11 @@
 {
   "name": "isles2022-2d3d-blend-pipeline",
-  "version": "0.1.0",
+  "version": "0.0.0.1",
   "description": "Public bundle of source code, configs, and documentation for the ISLES 2022 2D+3D heterogeneous-ensemble pipeline. No data, no trained weights.",
   "expected_files": [
     "README.md",
     "README_ja.md",
+    "CHANGELOG.md",
     "LICENSE",
     "NOTICE",
     "CITATION.cff",
@@ -14,6 +15,8 @@
     "isles2022_2d3d_blend/README_en.md",
     "docs/experiment_journey.md",
     "docs/experiment_journey_ja.md",
+    "docs/releases/v0.0.0.1.md",
+    "docs/releases/v0.0.0.1_ja.md",
     "core/pipeline/configs/train_convnext_v2_1mm.yaml",
     "core/pipeline/configs/train_convnext_v2_aug_1mm.yaml",
     "core/pipeline/configs/train_convnext_v3_aug_1mm.yaml",

@@ -5,7 +5,7 @@
 - [x] Audit map and citation metadata
 - [x] No-data smoke test (shape + dummy-volume end-to-end)
 - [x] Cross-arch ensemble script with `--adaptive-low-thrs` / `--adaptive-high-vols` flags
-- [ ] GitHub Release notes for v0.1.0
+- [x] GitHub Release notes for v0.0.0.1
 
 ## Phase 2 — Reproducibility
 - [ ] Reproducibility checklist page
