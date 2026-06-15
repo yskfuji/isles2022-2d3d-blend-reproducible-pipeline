@@ -1,0 +1,16 @@
+isles2022-2d3d-blend-pipeline
+Copyright 2026 yskfuji
+
+This repository is provided as a research/reproducibility and portfolio package
+for ISLES 2022 ischemic stroke lesion segmentation using a heterogeneous
+ensemble of 2D nnU-Net, MPS-compatible 3D nnU-Net, and 2.5D ConvNeXt models,
+combined via cross-architecture probability fusion with adaptive thresholding.
+
+It is NOT a medical device and is NOT intended for clinical decision making.
+
+No datasets, trained weights, runs, results, or logs are included in this
+repository. Users must obtain the ISLES-2022 dataset separately and comply
+with the applicable data use agreement.
+
+This NOTICE file is provided for informational purposes only and does not
+modify the License.

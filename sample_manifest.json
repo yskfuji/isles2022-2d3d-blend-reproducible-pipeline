@@ -1,0 +1,38 @@
+{
+  "name": "isles2022-2d3d-blend-pipeline",
+  "version": "0.1.0",
+  "description": "Public bundle of source code, configs, and documentation for the ISLES 2022 2D+3D heterogeneous-ensemble pipeline. No data, no trained weights.",
+  "expected_files": [
+    "README.md",
+    "README_ja.md",
+    "LICENSE",
+    "NOTICE",
+    "CITATION.cff",
+    "AUDIT_MAP.md",
+    "ROADMAP.md",
+    "isles2022_2d3d_blend/README.md",
+    "isles2022_2d3d_blend/README_en.md",
+    "core/pipeline/configs/train_convnext_v2_1mm.yaml",
+    "core/pipeline/configs/train_convnext_v2_aug_1mm.yaml",
+    "core/pipeline/configs/train_convnext_v3_aug_1mm.yaml",
+    "core/pipeline/configs/train_convnext_v3_dilated_1mm.yaml",
+    "core/pipeline/src/models/convnext_nnunet_seg.py",
+    "core/pipeline/src/models/input_adapters.py",
+    "core/pipeline/src/datasets/isles_dataset.py",
+    "core/pipeline/src/training/train_isles_25d_convnext_fpn.py",
+    "core/pipeline/src/training/losses.py",
+    "core/pipeline/src/training/utils_train.py",
+    "core/pipeline/src/evaluation/evaluate_isles_25d.py",
+    "core/pipeline/src/evaluation/evaluate_isles_25d_ensemble.py",
+    "core/pipeline/scripts/cross_arch_ensemble_native.py",
+    "core/pipeline/scripts/nnUNetTrainer_MPS3D_500epochs.py",
+    "scripts/smoke_test.py"
+  ],
+  "best_recipe": {
+    "nnunet_blend": "0.6 * 2D-3fold-avg(folds 0,1,2) + 0.4 * 3D-2fold-avg(folds 0,1)",
+    "cross_arch": "0.20 * ConvNeXt-8avg + 0.80 * nnunet-blend",
+    "rescue": {"alpha": 0.7, "case_gate_agree": 0.4, "cc_min_overlap": 20},
+    "post_process": {"base_thr": 0.30, "adaptive_low_thr": 0.03, "adaptive_high_vol": 4000, "min_size": 0},
+    "test_mean_dice_25case_custom_split": 0.7527
+  }
+}

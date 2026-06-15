@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: isles2022-2d3d-blend-pipeline
+message: >-
+  If you use this software, please cite it using the metadata in this file.
+type: software
+authors:
+  - given-names: yskfuji
+    family-names: ""
+abstract: >-
+  Heterogeneous ensemble pipeline for ISLES 2022 ischemic stroke lesion
+  segmentation. Combines 2D nnU-Net (3-fold), MPS-compatible 3D nnU-Net
+  (2-fold), and 2.5D ConvNeXt (8-model) via cross-architecture probability
+  fusion in DWI-native space, with case-adaptive thresholding for under-
+  predicted large lesions.
+keywords:
+  - medical-imaging
+  - segmentation
+  - ISLES-2022
+  - nnU-Net
+  - ConvNeXt
+  - ensemble
+  - Apple-Silicon
+  - MPS
+license: Apache-2.0
+version: 0.1.0
+date-released: 2026-06-15
