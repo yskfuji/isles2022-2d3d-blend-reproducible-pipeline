@@ -16,3 +16,4 @@ Datasets/
 .venv/
 venv/
 .env
+.gh-cli/

@@ -1,5 +1,5 @@
 {
-  "name": "isles2022-2d3d-blend-pipeline",
+  "name": "isles2022-2d3d-blend-reproducible-pipeline",
   "version": "0.0.0.1",
   "description": "Public bundle of source code, configs, and documentation for the ISLES 2022 2D+3D heterogeneous-ensemble pipeline. No data, no trained weights.",
   "expected_files": [

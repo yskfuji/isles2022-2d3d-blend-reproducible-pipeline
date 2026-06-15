@@ -1,4 +1,4 @@
-# isles2022-2d3d-blend-pipeline
+# isles2022-2d3d-blend-reproducible-pipeline
 
 **Language:** English | [Japanese](README_ja.md)
 
