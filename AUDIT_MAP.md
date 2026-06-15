@@ -6,14 +6,16 @@ segmentation task. Reviewers can audit each stage by following the order below.
 ## 1. Reading order
 
 1. `./isles2022_2d3d_blend/README.md` (Japanese) or `./isles2022_2d3d_blend/README_en.md`
-2. `./core/pipeline/configs/train_convnext_v2_5slice_1mm.yaml`
+2. `./docs/experiment_journey.md` (English) or `./docs/experiment_journey_ja.md`
+   — scientific log of every experiment that led to the final 0.7527 recipe
+3. `./core/pipeline/configs/train_convnext_v2_5slice_1mm.yaml`
    `./core/pipeline/configs/train_convnext_v3_7slice_dilated_1mm.yaml`
-3. `./core/pipeline/src/models/convnext_nnunet_seg.py`
-4. `./core/pipeline/src/training/train_isles_25d_convnext_fpn.py`
-5. `./core/pipeline/scripts/nnUNetTrainer_MPS3D_500epochs.py`
+4. `./core/pipeline/src/models/convnext_nnunet_seg.py`
+5. `./core/pipeline/src/training/train_isles_25d_convnext_fpn.py`
+6. `./core/pipeline/scripts/nnUNetTrainer_MPS3D_500epochs.py`
    (MPS-safe 3D nnU-Net trainer — drop into the nnunetv2 install location)
-6. `./core/pipeline/src/evaluation/evaluate_isles_25d_ensemble.py`
-7. `./core/pipeline/scripts/cross_arch_ensemble_native.py`
+7. `./core/pipeline/src/evaluation/evaluate_isles_25d_ensemble.py`
+8. `./core/pipeline/scripts/cross_arch_ensemble_native.py`
    (cross-arch fusion + adaptive threshold)
 
 ## 2. Audit highlights

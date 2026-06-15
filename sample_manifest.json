@@ -12,6 +12,8 @@
     "ROADMAP.md",
     "isles2022_2d3d_blend/README.md",
     "isles2022_2d3d_blend/README_en.md",
+    "docs/experiment_journey.md",
+    "docs/experiment_journey_ja.md",
     "core/pipeline/configs/train_convnext_v2_1mm.yaml",
     "core/pipeline/configs/train_convnext_v2_aug_1mm.yaml",
     "core/pipeline/configs/train_convnext_v3_aug_1mm.yaml",

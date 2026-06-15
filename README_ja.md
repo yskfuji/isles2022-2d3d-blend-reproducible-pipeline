@@ -7,6 +7,7 @@ ISLES 2022 急性期脳梗塞病変セグメンテーションのための異種
 **クイックリンク**
 - エントリーガイド (EN): [isles2022_2d3d_blend/README_en.md](isles2022_2d3d_blend/README_en.md)
 - エントリーガイド (JA): [isles2022_2d3d_blend/README.md](isles2022_2d3d_blend/README.md)
+- **実験ジャーニー (0.7527 への科学的経緯)**: [EN](docs/experiment_journey.md) | [JA](docs/experiment_journey_ja.md)
 - 監査マップ: [AUDIT_MAP.md](AUDIT_MAP.md)
 - ロードマップ: [ROADMAP.md](ROADMAP.md)
 - 引用情報: [CITATION.cff](CITATION.cff)
