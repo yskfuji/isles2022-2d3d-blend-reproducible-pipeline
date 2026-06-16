@@ -8,9 +8,16 @@ All notable changes to this repository are documented in this file.
 - English and Japanese release notes for the first GitHub Release.
 - Scientific experiment journey documents describing how the 0.7527 hold-out Dice recipe was derived.
 - Release links from the top-level English and Japanese READMEs.
+- Per-case evaluation evidence under `artifacts/eval_runs/cross_arch_v0.0.0.1/`:
+  CSV with per-case Dice for all 25 cases (broken down by stage),
+  `metrics_summary.json` reproducing the headline 0.7527 mean Dice +0.0140 adaptive-threshold gain,
+  and a README explaining how to verify the numbers from cached probability maps.
 
 ### Changed
 - Aligned repository metadata and public manifest versioning to v0.0.0.1.
+- Aligned project title to `isles2022-2d3d-blend-reproducible-pipeline` to match
+  the `yskfuji/<dataset>-<method>-reproducible-pipeline` convention used by the
+  sibling portfolio repositories.
 - Marked the initial GitHub Release notes milestone complete in the roadmap.
 
 ## v0.0.0.0 - 2026-06-15

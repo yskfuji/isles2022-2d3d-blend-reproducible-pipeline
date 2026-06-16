@@ -8,7 +8,9 @@ segmentation task. Reviewers can audit each stage by following the order below.
 1. `./isles2022_2d3d_blend/README.md` (Japanese) or `./isles2022_2d3d_blend/README_en.md`
 2. `./docs/experiment_journey.md` (English) or `./docs/experiment_journey_ja.md`
    — scientific log of every experiment that led to the final 0.7527 recipe
-3. `./core/pipeline/configs/train_convnext_v2_5slice_1mm.yaml`
+3. `./artifacts/eval_runs/cross_arch_v0.0.0.1/`
+   — per-case evidence (CSV + JSON) reproducing the headline 0.7527 mean Dice
+4. `./core/pipeline/configs/train_convnext_v2_5slice_1mm.yaml`
    `./core/pipeline/configs/train_convnext_v3_7slice_dilated_1mm.yaml`
 4. `./core/pipeline/src/models/convnext_nnunet_seg.py`
 5. `./core/pipeline/src/training/train_isles_25d_convnext_fpn.py`
