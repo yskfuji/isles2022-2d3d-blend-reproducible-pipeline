@@ -11,6 +11,8 @@
     "CITATION.cff",
     "AUDIT_MAP.md",
     "ROADMAP.md",
+    "MODEL_CARD.md",
+    "docs/weights.md",
     "isles2022_2d3d_blend/README.md",
     "isles2022_2d3d_blend/README_en.md",
     "docs/experiment_journey.md",

@@ -9,6 +9,8 @@ ISLES 2022 急性期脳梗塞病変セグメンテーションのための異種
 - エントリーガイド (JA): [isles2022_2d3d_blend/README.md](isles2022_2d3d_blend/README.md)
 - **実験ジャーニー (0.7527 への科学的経緯)**: [EN](docs/experiment_journey.md) | [JA](docs/experiment_journey_ja.md)
 - **per-case 評価エビデンス (25 ケース、0.7527 検証可)**: [artifacts/eval_runs/cross_arch_v0.0.0.1/](artifacts/eval_runs/cross_arch_v0.0.0.1/)
+- **モデルカード**: [MODEL_CARD.md](MODEL_CARD.md) — アーキテクチャ、訓練手順、想定用途、限界
+- **学習済み重みの配布**: [docs/weights.md](docs/weights.md) — SHA-256 ハッシュ + GitHub Release アタッチ予定
 - リリースノート: [EN](docs/releases/v0.0.0.1.md) | [JA](docs/releases/v0.0.0.1_ja.md)
 - 監査マップ: [AUDIT_MAP.md](AUDIT_MAP.md)
 - ロードマップ: [ROADMAP.md](ROADMAP.md)

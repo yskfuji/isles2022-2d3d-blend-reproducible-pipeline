@@ -10,7 +10,10 @@ segmentation task. Reviewers can audit each stage by following the order below.
    — scientific log of every experiment that led to the final 0.7527 recipe
 3. `./artifacts/eval_runs/cross_arch_v0.0.0.1/`
    — per-case evidence (CSV + JSON) reproducing the headline 0.7527 mean Dice
-4. `./core/pipeline/configs/train_convnext_v2_5slice_1mm.yaml`
+4. `./MODEL_CARD.md` and `./docs/weights.md`
+   — what was trained, intended/out-of-scope use, and the integrity-checksummed
+     weight tarballs prepared for future GitHub Release attachment
+5. `./core/pipeline/configs/train_convnext_v2_5slice_1mm.yaml`
    `./core/pipeline/configs/train_convnext_v3_7slice_dilated_1mm.yaml`
 4. `./core/pipeline/src/models/convnext_nnunet_seg.py`
 5. `./core/pipeline/src/training/train_isles_25d_convnext_fpn.py`

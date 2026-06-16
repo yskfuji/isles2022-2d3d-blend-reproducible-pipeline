@@ -12,6 +12,10 @@ All notable changes to this repository are documented in this file.
   CSV with per-case Dice for all 25 cases (broken down by stage),
   `metrics_summary.json` reproducing the headline 0.7527 mean Dice +0.0140 adaptive-threshold gain,
   and a README explaining how to verify the numbers from cached probability maps.
+- `MODEL_CARD.md` describing the 13 trained checkpoints (8 ConvNeXt + 3 2D nnU-Net + 2 3D nnU-Net),
+  intended use, out-of-scope use, limitations, and the per-case failure modes called out in the journey doc.
+- `docs/weights.md` with SHA-256 checksums and inventory for three weight tarballs
+  (≈ 957 MB + 331 MB + 269 MB) prepared locally for future GitHub Release attachment.
 
 ### Changed
 - Aligned repository metadata and public manifest versioning to v0.0.0.1.

@@ -9,6 +9,8 @@ Heterogeneous-ensemble pipeline for ISLES 2022 ischemic stroke lesion segmentati
 - Entry guide (JA): [isles2022_2d3d_blend/README.md](isles2022_2d3d_blend/README.md)
 - **Experiment journey (how we arrived at 0.7527)**: [EN](docs/experiment_journey.md) | [JA](docs/experiment_journey_ja.md)
 - **Per-case evaluation evidence (25 cases, 0.7527 verified)**: [artifacts/eval_runs/cross_arch_v0.0.0.1/](artifacts/eval_runs/cross_arch_v0.0.0.1/)
+- **Model card**: [MODEL_CARD.md](MODEL_CARD.md) — architecture, training procedure, intended use, limitations
+- **Trained weights distribution**: [docs/weights.md](docs/weights.md) — SHA-256 hashes + planned GitHub Release attachments
 - Release notes: [EN](docs/releases/v0.0.0.1.md) | [JA](docs/releases/v0.0.0.1_ja.md)
 - Audit map: [AUDIT_MAP.md](AUDIT_MAP.md)
 - Roadmap: [ROADMAP.md](ROADMAP.md)
