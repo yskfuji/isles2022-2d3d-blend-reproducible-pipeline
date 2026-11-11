@@ -4,6 +4,8 @@
 
 Heterogeneous-ensemble pipeline for ISLES 2022 ischemic stroke lesion segmentation. Combines 2D nnU-Net (3-fold) + MPS-compatible 3D nnU-Net (2-fold) + 2.5D ConvNeXt (8-model) via cross-architecture probability fusion in DWI-native space, with case-adaptive thresholding to recover under-predicted large lesions.
 
+> Research / portfolio only. **Not a medical device.** Medical data are not bundled.
+
 **Quick links**
 - Entry guide (EN): [isles2022_2d3d_blend/README_en.md](isles2022_2d3d_blend/README_en.md)
 - Entry guide (JA): [isles2022_2d3d_blend/README.md](isles2022_2d3d_blend/README.md)
@@ -15,6 +17,13 @@ Heterogeneous-ensemble pipeline for ISLES 2022 ischemic stroke lesion segmentati
 - Audit map: [AUDIT_MAP.md](AUDIT_MAP.md)
 - Roadmap: [ROADMAP.md](ROADMAP.md)
 - Citation: [CITATION.cff](CITATION.cff)
+- Public polish checklist: [docs/audit/polish-isles2022-2d3d-blend.md](docs/audit/polish-isles2022-2d3d-blend.md)
+
+## Pipeline figures
+
+<p align="center"><img src="docs/assets/architecture.png" alt="Pipeline architecture" width="100%" /></p>
+
+<p align="center"><img src="docs/assets/results_snapshot.png" alt="Metrics snapshot" width="100%" /></p>
 
 ## What this repository provides
 
