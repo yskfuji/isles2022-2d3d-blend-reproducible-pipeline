@@ -17,7 +17,6 @@
 - リリースノート: [docs/releases/v0.0.0.1_ja.md](docs/releases/v0.0.0.1_ja.md)
 - 監査マップ: [AUDIT_MAP.md](AUDIT_MAP.md)
 - 引用: [CITATION.cff](CITATION.cff)
-- 公開整備チェック表: [docs/audit/polish-isles2022-2d3d-blend.md](docs/audit/polish-isles2022-2d3d-blend.md)
 
 ## 処理構成
 

@@ -17,7 +17,6 @@ Heterogeneous-ensemble pipeline for ISLES 2022 ischemic stroke lesion segmentati
 - Audit map: [AUDIT_MAP.md](AUDIT_MAP.md)
 - Roadmap: [ROADMAP.md](ROADMAP.md)
 - Citation: [CITATION.cff](CITATION.cff)
-- Public polish checklist: [docs/audit/polish-isles2022-2d3d-blend.md](docs/audit/polish-isles2022-2d3d-blend.md)
 
 ## Pipeline figures
 
