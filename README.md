@@ -66,7 +66,7 @@ See [`core/pipeline/scripts/nnUNetTrainer_MPS3D_500epochs.py`](core/pipeline/scr
 
 ## Who this is for
 
-- Hiring managers reviewing medical-AI segmentation portfolio work
+- Reviewers evaluating medical-AI segmentation methods
 - ML engineers needing an auditable MRI-segmentation ensemble baseline
 - Apple Silicon researchers blocked by missing `ConvTranspose3d` in MPS
 
