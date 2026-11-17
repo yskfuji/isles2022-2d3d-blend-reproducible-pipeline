@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 610" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+  <title id="title">Cross-architecture blend overview</title>
+  <desc id="desc">2D nnU-Net + 3D nnU-Net + 2.5D ConvNeXt → probability fusion → adaptive threshold</desc>
+  <rect width="960" height="610" fill="#0B1220"/>
+  <g font-family="'Hiragino Sans', 'Noto Sans CJK JP', Arial, Helvetica, sans-serif">
+    <text x="40" y="42" fill="#F1F5F9" font-size="26" font-weight="700">Cross-architecture blend overview</text>
+    <text x="40" y="72" fill="#94A3B8" font-size="15">2D nnU-Net + 3D nnU-Net + 2.5D ConvNeXt → probability fusion → adaptive threshold</text>
+    <rect x="80" y="100" rx="14" width="800" height="70" fill="#152033" stroke="#38BDF8" stroke-width="3"/>
+    <circle cx="480" cy="118" r="7" fill="#38BDF8"/>
+    <text x="480" y="142" fill="#F1F5F9" font-size="20" font-weight="700" text-anchor="middle">1. 2D nnU-Net</text>
+    <text x="480" y="160" fill="#94A3B8" font-size="14" text-anchor="middle">3-fold</text>
+    <line x1="480" y1="170" x2="480" y2="186" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+    <polygon points="480,190 475,180 485,180" fill="#94A3B8"/>
+    <rect x="80" y="190" rx="14" width="800" height="70" fill="#152033" stroke="#14B8A6" stroke-width="3"/>
+    <circle cx="480" cy="208" r="7" fill="#14B8A6"/>
+    <text x="480" y="232" fill="#F1F5F9" font-size="20" font-weight="700" text-anchor="middle">2. 3D nnU-Net</text>
+    <text x="480" y="250" fill="#94A3B8" font-size="14" text-anchor="middle">2-fold MPS</text>
+    <line x1="480" y1="260" x2="480" y2="276" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+    <polygon points="480,280 475,270 485,270" fill="#94A3B8"/>
+    <rect x="80" y="280" rx="14" width="800" height="70" fill="#152033" stroke="#F59E0B" stroke-width="3"/>
+    <circle cx="480" cy="298" r="7" fill="#F59E0B"/>
+    <text x="480" y="322" fill="#F1F5F9" font-size="20" font-weight="700" text-anchor="middle">3. 2.5D ConvNeXt</text>
+    <text x="480" y="340" fill="#94A3B8" font-size="14" text-anchor="middle">8 models</text>
+    <line x1="480" y1="350" x2="480" y2="366" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+    <polygon points="480,370 475,360 485,360" fill="#94A3B8"/>
+    <rect x="80" y="370" rx="14" width="800" height="70" fill="#152033" stroke="#84CC16" stroke-width="3"/>
+    <circle cx="480" cy="388" r="7" fill="#84CC16"/>
+    <text x="480" y="412" fill="#F1F5F9" font-size="20" font-weight="700" text-anchor="middle">4. Fusion</text>
+    <text x="480" y="430" fill="#94A3B8" font-size="14" text-anchor="middle">DWI native</text>
+    <line x1="480" y1="440" x2="480" y2="456" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+    <polygon points="480,460 475,450 485,450" fill="#94A3B8"/>
+    <rect x="80" y="460" rx="14" width="800" height="70" fill="#152033" stroke="#F43F5E" stroke-width="3"/>
+    <circle cx="480" cy="478" r="7" fill="#F43F5E"/>
+    <text x="480" y="502" fill="#F1F5F9" font-size="20" font-weight="700" text-anchor="middle">5. Adaptive thr</text>
+    <text x="480" y="520" fill="#94A3B8" font-size="14" text-anchor="middle">large-lesion rescue</text>
+    <text x="40" y="580" fill="#94A3B8" font-size="13">Not a medical device. Research / portfolio only.</text>
+  </g>
+</svg>

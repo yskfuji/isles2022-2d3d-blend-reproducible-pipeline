@@ -1,0 +1,62 @@
+{
+  "recipe_version": "v0.0.0.1",
+  "pipeline": {
+    "nnunet_blend": "0.6 * 2D-3fold-avg + 0.4 * 3D-2fold-avg(folds 0,1)",
+    "cross_arch": "0.20 * ConvNeXt-8avg + 0.80 * nnunet-blend",
+    "rescue": {
+      "alpha": 0.7,
+      "case_gate_agree": 0.4,
+      "cc_min_overlap": 20
+    },
+    "post_process": {
+      "base_thr": 0.3,
+      "adaptive_low_thr": 0.03,
+      "adaptive_high_vol": 4000,
+      "min_size": 0
+    }
+  },
+  "test_split": {
+    "name": "25-case ISLES 2022 custom hold-out",
+    "n_cases": 25
+  },
+  "metrics": {
+    "mean_dice_fixed_thr_0.30": 0.7387,
+    "mean_dice_final_adaptive": 0.7527,
+    "median_dice_final_adaptive": 0.8304,
+    "stdev_dice_final_adaptive": 0.2245,
+    "gain_from_adaptive_threshold": 0.014,
+    "n_cases_with_adaptive_fired": 2
+  },
+  "cases_dragging_mean": [
+    {
+      "case_id": "sub-strokecase0174",
+      "gt_voxels": 108,
+      "dice_final_adaptive": 0.0
+    },
+    {
+      "case_id": "sub-strokecase0007",
+      "gt_voxels": 439,
+      "dice_final_adaptive": 0.3494
+    },
+    {
+      "case_id": "sub-strokecase0027",
+      "gt_voxels": 822,
+      "dice_final_adaptive": 0.3866
+    },
+    {
+      "case_id": "sub-strokecase0248",
+      "gt_voxels": 2541,
+      "dice_final_adaptive": 0.4902
+    },
+    {
+      "case_id": "sub-strokecase0140",
+      "gt_voxels": 17671,
+      "dice_final_adaptive": 0.6205
+    },
+    {
+      "case_id": "sub-strokecase0008",
+      "gt_voxels": 94,
+      "dice_final_adaptive": 0.6667
+    }
+  ]
+}
