@@ -20,9 +20,9 @@
 
 ## 処理構成
 
-<p align="center"><img src="docs/assets/architecture_ja.png" alt="処理構成" width="100%" /></p>
+![処理構成](docs/assets/architecture_ja.png)
 
-<p align="center"><img src="docs/assets/results_snapshot_ja.png" alt="代表指標" width="100%" /></p>
+![代表指標](docs/assets/results_snapshot_ja.png)
 
 ## 本リポジトリで確認できること
 

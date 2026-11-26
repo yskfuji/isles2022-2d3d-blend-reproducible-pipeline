@@ -20,9 +20,9 @@ Heterogeneous-ensemble pipeline for ISLES 2022 ischemic stroke lesion segmentati
 
 ## Pipeline figures
 
-<p align="center"><img src="docs/assets/architecture.png" alt="Pipeline architecture" width="100%" /></p>
+![Pipeline architecture](docs/assets/architecture.png)
 
-<p align="center"><img src="docs/assets/results_snapshot.png" alt="Metrics snapshot" width="100%" /></p>
+![Metrics snapshot](docs/assets/results_snapshot.png)
 
 ## What this repository provides
 
