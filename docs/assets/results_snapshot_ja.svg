@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 340" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
   <title id="title">hold-out平均Dice（25ケース）</title>
   <desc id="desc">metrics</desc>
-  <rect width="960" height="340" fill="#0B1220"/>
+  <rect width="1080" height="340" fill="#0B1220"/>
   <g font-family="'Hiragino Sans', 'Noto Sans CJK JP', Arial, Helvetica, sans-serif">
     <text x="40" y="42" fill="#F1F5F9" font-size="26" font-weight="700">hold-out平均Dice（25ケース）</text>
     <text x="40" y="72" fill="#94A3B8" font-size="15">Source: artifacts/eval_runs/cross_arch_v0.0.0.1/</text>
